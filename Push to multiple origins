@@ -1,0 +1,18 @@
+Here's a sample project with multiple remotes, GitHub & GitLab:
+
+Add remote repo for GitHub
+
+$ git remote add github https://github.com/Company_Name/repository_name.git
+Add remote repo for GitLab
+
+$ git remote add gitlab https://gitlab.com/Company_Name/repository_name.git
+Now you have multiple remotes in the project. Double check with git remote -v
+
+$ git remote -v
+github https://github.com/Company_Name/repository_name.git (fetch)
+github https://github.com/Company_Name/repository_name.git (push)
+gitlab https://gitlab.com/Company_Name/repository_name.git (fetch)
+gitlab https://gitlab.com/Company_Name/repository_name.git (push)
+How do you push to multiple repositories?
+
+$ git push github && git push gitlab
